@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f6f2e8;
+}
+
+header {
+    background: #8b3a02;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero {
+    background: #8b3a02;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.form-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-box input, .form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    background: #8b3a02;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
